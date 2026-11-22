@@ -1,0 +1,19 @@
+بطاقة المشروع (Project Card)
+- مجموعة البيانات (Dataset): Student Performance
+- المصدر (Source): https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression
+- حجم البيانات: 10000 صف × 6 عموداً
+- عمود الهدف (Target): Performance Index
+- نوع المهمة (Task): تنبؤ بقيمة (Regression)
+- الأعمدة المحذوفة: لا يوجد
+- أعمدة عولجت قيمها الناقصة: لا يوجد
+- أعمدة نصية حوّلت إلى أرقام (One-Hot): Extracurricular Activities
+- عدد الخصائص بعد التجهيز: 5
+- التقسيم: تدريب 8000 صف / اختبار 2000 صف (20%)
+- النموذج (Model): الغابة العشوائية (RandomForestRegressor)
+- متوسط الخطأ المطلق (MAE): 1.81
+- مرجع التخمين (Baseline) لو أخذنا المتوسط MAE: 16.21
+- معامل التحديد (R²) على التدريب: 0.987
+- معامل التحديد (R²) على الاختبار: 0.988
+- حفظ أم فهم؟: الأداء متقارب على التدريب والاختبار
+- أهم 5 خصائص (Top Features): Previous Scores, Hours Studied, Sleep Hours, Sample Question Papers Practiced, Extracurricular Activities_Yes
+- الأدوات: Python, pandas, scikit-learn, matplotlib, Google Colab
